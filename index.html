@@ -7,27 +7,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Open+Sans:300,400,700&display=swap">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/chamada.css">
 </head>
 <body>
-    <header>
+    <header class="cabecalho container">
         <a href="/index.html">
-            <img src="img/logo-apeperia.svg" alt="Logo da Apeperia">
+            <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="cabecalho__logo">
         </a>
         <nav>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Planos</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Destaques</a></li>
-                <li><a href="#">Institucional</a></li>
-                <li><a href="#">Contato</a></li>
+            <ul class="cabecalho__navegacao">
+                <li class="cabecalho__link"><a href="#">Sobre</a></li>
+                <li class="cabecalho__link"><a href="#">Planos</a></li>
+                <li class="cabecalho__link"><a href="#">Blog</a></li>
+                <li class="cabecalho__link"><a href="#">Destaques</a></li>
+                <li class="cabecalho__link"><a href="#">Institucional</a></li>
+                <li class="cabecalho__link"><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Aplicativos Na Medida</h1>
-            <p>A Apeperia é uma startup com um jeito inovador de comprar e montar aplicativos mobile e web para pequenas e médias empresas</p>
+        <section class="chamada container">
+            <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
+            <p class="chamada__texto">A Apeperia é uma startup com um jeito inovador de comprar e montar aplicativos mobile e web para pequenas e médias empresas</p>
             <a href="planos.html" class="botao">Conheça os planos</a>
         </section>
     </main>
