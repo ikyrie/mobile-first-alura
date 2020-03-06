@@ -1,0 +1,46 @@
+.planos {
+    background-color: #F7F4F4;
+    
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.planos__titulo {
+    color: #4F4C4C;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.25rem;
+}
+
+.planos__cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card--start {
+    color: #56CCF2;
+}
+
+.card--ultra {
+    color: #B04CD9;
+}
+
+.card--mega {
+    color: #E33B3B;
+}
+
+.card__botao--start {
+    border-color: #56CCF2;
+}
+
+.card__botao--ultra {
+    border-color: #B04CD9;
+}
+
+.card__botao--mega {
+    border-color: #E33B3B;
+}
