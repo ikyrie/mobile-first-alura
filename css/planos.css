@@ -19,6 +19,7 @@
 .planos__cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .card--start {
