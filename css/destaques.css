@@ -49,3 +49,14 @@
 
     border-color: #B72E2E;
 }
+
+@media screen and (min-width: 768px) {
+    .destaques__painel-imagem {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .destaques__post-titulo {
+        padding: 0;
+    }
+}
