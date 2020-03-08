@@ -1,0 +1,52 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #333;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.rodape__social {
+    display: flex;
+}
+
+.rodape__midia {
+    display: block;
+    
+    text-indent: -9999px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 42px;
+    height: 42px;
+
+    margin: 2rem .5rem;
+}
+
+.rodape__midia--facebook {
+    background-image: url(../img/facebook.png);
+}
+
+.rodape__midia--twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.rodape__midia--instagram {
+    background-image: url(../img/instagram.png);
+}
+
+.rodape__navegacao {
+    color: #fff;
+    text-align: center;
+    line-height: 3;
+}
+
+.rodape__link {
+    display: inline-block;
+
+    margin: 0 .5rem .7rem;
+}
