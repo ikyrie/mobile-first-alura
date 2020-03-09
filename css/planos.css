@@ -45,3 +45,11 @@
 .card__botao--mega {
     border-color: #E33B3B;
 }
+
+@media screen and (min-width: 1024px) {
+    .planos__cards {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}

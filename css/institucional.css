@@ -73,3 +73,26 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .institucional__container {
+        display: flex;
+        justify-content: space-between;
+        
+        text-align: left;
+    }
+
+    .institucional__video {
+        align-self: flex-start;
+        
+        width: 375px;
+    }
+
+    .institucional__contato {
+        flex-direction: column;
+    }
+
+    .institucional__contato-email {
+        margin: 0;
+    }
+}

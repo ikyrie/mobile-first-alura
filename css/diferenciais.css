@@ -44,3 +44,13 @@
 .diferencial__texto {
     line-height: normal;
 }
+
+@media screen and (min-width: 1024px) {
+    .diferenciais {
+        background-color: #f7f4f4;
+    }
+
+    .diferenciais__lista {
+        justify-content: space-around;
+    }
+}
