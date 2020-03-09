@@ -47,6 +47,7 @@
 .institucional__contato-email {
     color: #0084ff;
     text-decoration: underline;
+    display: block;
 }
 
 .institucional__video {
@@ -65,17 +66,17 @@
         width: 100%;
     }
 
-    .institucional__contato-email {
-        margin-left: .5rem;
-    }
-
     .institucional__video {
         width: 100%;
+    }
+
+    .institucional__contato-email {
+        display: inline-block;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .institucional__container {
+    .institucional__conteudo {
         display: flex;
         justify-content: space-between;
         
@@ -93,6 +94,6 @@
     }
 
     .institucional__contato-email {
-        margin: 0;
+        display: block;
     }
 }
