@@ -16,7 +16,7 @@
     margin-bottom: 1.25rem;
 }
 
-.planos__cards {
+.planos__cartoes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +47,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .planos__cards {
+    .planos__cartoes {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-end;
