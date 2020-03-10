@@ -1,0 +1,55 @@
+.planos {
+    background-color: #F7F4F4;
+    
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.planos__titulo {
+    color: #4F4C4C;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.25rem;
+}
+
+.planos__cartoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartao--start {
+    color: #56CCF2;
+}
+
+.cartao--ultra {
+    color: #B04CD9;
+}
+
+.cartao--mega {
+    color: #E33B3B;
+}
+
+.cartao__botao--start {
+    border-color: #56CCF2;
+}
+
+.cartao__botao--ultra {
+    border-color: #B04CD9;
+}
+
+.cartao__botao--mega {
+    border-color: #E33B3B;
+}
+
+@media screen and (min-width: 1024px) {
+    .planos__cartoes {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
