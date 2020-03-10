@@ -22,27 +22,27 @@
     align-items: center;
 }
 
-.card--start {
+.cartao--start {
     color: #56CCF2;
 }
 
-.card--ultra {
+.cartao--ultra {
     color: #B04CD9;
 }
 
-.card--mega {
+.cartao--mega {
     color: #E33B3B;
 }
 
-.card__botao--start {
+.cartao__botao--start {
     border-color: #56CCF2;
 }
 
-.card__botao--ultra {
+.cartao__botao--ultra {
     border-color: #B04CD9;
 }
 
-.card__botao--mega {
+.cartao__botao--mega {
     border-color: #E33B3B;
 }
 
