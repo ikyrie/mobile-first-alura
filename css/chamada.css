@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
 
-    color: #fff;
+    color: var(--branco, #fff);
     text-align: center;
     
     background-color: #00161c;
@@ -13,7 +13,7 @@
 }
 
 .chamada__titulo {
-    font-family: 'Montserrat', serif;
+    font-family: var(--montserrat, 'Montserrat', serif);
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;

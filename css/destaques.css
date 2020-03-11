@@ -3,17 +3,17 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: #DCEDF5;
+    background-color: var(--azul-claro, #DCEDF5);
 
     padding-top: 2.5rem;
     padding-bottom: 2rem;
 }
 
 .destaques__titulo {
-    color: #4F4C4C;
+    color: var(--cinza-escuro, #4F4C4C);
     font-weight: 700;
     font-size: 1.5rem;
-    font-family: 'Montserrat', serif;
+    font-family: var(--montserrat, 'Montserrat', serif);
     text-transform: uppercase;
     text-align: center;
 
@@ -45,9 +45,9 @@
 }
 
 .destaques__newsletter {
-    color: #B72E2E;
+    color: var(--vermelo-forte, #B72E2E);
 
-    border-color: #B72E2E;
+    border-color: var(--vermelo-forte, #B72E2E);
 }
 
 @media screen and (min-width: 768px) {

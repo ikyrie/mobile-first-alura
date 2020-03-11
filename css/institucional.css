@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
 
-    color: #666;
+    color: var(--fonte-cinza, #666);
     text-align: center;
 
     padding-top: 2rem;
@@ -11,10 +11,10 @@
 }
 
 .institucional__titulo {
-    color: #4F4C4C;
+    color: var(--cinza-escuro, #4F4C4C);
     font-weight: 700;
     font-size: 1.5rem;
-    font-family: 'Montserrat', serif;
+    font-family: var(--montserrat, 'Montserrat', serif);
     text-transform: uppercase;
     text-align: center;
 
@@ -45,7 +45,7 @@
 }
 
 .institucional__contato-email {
-    color: #0084ff;
+    color: var(--fonte-link, #0084ff);
     text-decoration: underline;
     display: block;
 }

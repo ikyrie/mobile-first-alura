@@ -33,7 +33,7 @@
 }
 
 .diferencial__titulo {
-    color: #4F4C4C;
+    color: var(--cinza-escuro, #4F4C4C);
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -47,7 +47,7 @@
 
 @media screen and (min-width: 1024px) {
     .diferenciais {
-        background-color: #f7f4f4;
+        background-color: var(--cinza-claro, #f7f4f4);
     }
 
     .diferenciais__lista {
