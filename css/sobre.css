@@ -50,7 +50,7 @@
         text-align: left;
     }
 
-    .sobre__texto--destaque {
+    .sobre__texto--divisao {
         border-bottom: 1px solid var(--cinza-medio, #D9D9D9);
 
         padding-bottom: 1.5rem;
