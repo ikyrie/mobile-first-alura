@@ -8,7 +8,7 @@
     
     background-color: #00161c;
 
-    padding-top: 10.25rem;
+    padding-top: 12.25rem;
     padding-bottom: 2.5rem;
 }
 
@@ -37,6 +37,8 @@
     .chamada {
         background-image: url(../img/bg-intro.jpg);
         background-size: cover;
+
+        padding-top: 8.25rem;
     }
 
     .chamada__titulo {

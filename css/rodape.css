@@ -15,28 +15,11 @@
 
 .rodape__midia {
     display: block;
-    
-    text-indent: -9999px;
-
-    background-size: contain;
-    background-repeat: no-repeat;
 
     width: 42px;
     height: 42px;
 
-    margin: 2rem .5rem;
-}
-
-.rodape__midia--facebook {
-    background-image: url(../img/facebook.png);
-}
-
-.rodape__midia--twitter {
-    background-image: url(../img/twitter.png);
-}
-
-.rodape__midia--instagram {
-    background-image: url(../img/instagram.png);
+    margin: 2rem 1rem;
 }
 
 .rodape__navegacao {
