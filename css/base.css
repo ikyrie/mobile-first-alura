@@ -6,10 +6,11 @@
     --cinza-claro: #f7f4f4;
     --cinza-medio: #D9D9D9;
     
-    --fonte-link: #0084ff;
+    --fonte-link: #0084FF;
     --fonte-cinza: #666;
-    --borda-cabecalho-mobile: #103d4a;
+    --borda-cabecalho-mobile: #103D4A;
     --bg-rodape: #333;
+    --bg-chamada-mobile: #00161C;
 
     --planos-cartao-start: #56CCF2;
     --planos-cartao-ultra: #B04CD9;
@@ -39,7 +40,7 @@ body {
 
     padding: 1rem 2rem;
 
-    border: 1px solid var(--branco, #fff);
+    border: 1px solid var(--branco, #FFF);
     border-radius: 5px;
 }
 
@@ -47,7 +48,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    background-color: var(--branco, #fff);
+    background-color: var(--branco, #FFF);
 
     width: 100%;
     max-width: 300px;
